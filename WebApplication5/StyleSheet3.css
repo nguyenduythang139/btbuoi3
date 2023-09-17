@@ -1,0 +1,58 @@
+﻿body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+#Container{
+    width:760px;
+    margin: 0 auto;
+}
+
+#Header{
+    display:flex;
+    justify-content:space-between;  
+}
+
+#Logo{
+    list-style:none;
+    display:flex;
+}
+
+#Logo>li {
+    padding: 10px;
+}
+
+#Header-left{
+    list-style:none;
+    display:flex;
+}
+
+#Header-left > li {
+    padding: 10px 20px;
+    border-right: 1px solid black;
+}
+
+#Content{
+    width:760px;
+    border-top: 1px solid black;
+}
+
+#Content #img1{
+    width:90%;
+    margin-left:40px;
+}
+
+#Content #img2{
+    width:34%;
+    float: left;
+    margin:20px 0 0 40px;
+}
+
+#Content #img3{
+    width:40%;
+    margin:20px 0 0 120px;
+}
+
+#Footer{
+    border-top:1px solid black;
+}
